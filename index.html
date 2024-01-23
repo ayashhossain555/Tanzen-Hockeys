@@ -38,14 +38,82 @@
         }
     </style>
 </head>
-<body>
-    <header>
-        <nav>
-
-        </nav>
+<body class="font-manrope">
+    <header class="container mx-auto my-8 px-8 lg:px-24">
+        <!-- Nav starts here -->
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a class="text-red-500">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Page</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="font-extrabold text-2xl lg:text-3xl">Tan<span class="text-red-500">z</span>en Hockey<span class="text-red-500">'</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex lg:items-center">
+            <ul class="menu menu-horizontal px-1 text-base font-bold">
+              <li><a class="text-red-500">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Page</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn btn-ghost opacity-70 hidden lg:flex"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="btn bg-red-500 text-white">Get Ticket</a>
+          </div>
+        </div>
+        <!-- Nav ends here -->
+        <!-- Hero Carousel starts here -->
+        <div class="carousel w-full my-8">
+          <div id="slide1" class="carousel-item rounded-xl relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] h-[70vh] bg-center bg-cover flex items-center justify-center">
+              <div class="hidden lg:block absolute bottom-10 right-10 bg-stone-900 rounded-lg px-5 py-3 w-1/2 text-white">
+                  <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                  <p class="opacity-70 text-base">Get to meet your favourite players and get their autographs. It is a game changer. So, delve into the world of hockey!</p>
+              </div>
+            <div class="absolute bottom-0 left-50 right-50 lg:left-8 space-x-4 flex justify-between transform -translate-y-1/2">
+              <a href="#slide4" class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❮</a> 
+              <a href="#slide2" class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❯</a>
+            </div>
+          </div> 
+          <div id="slide2" class="carousel-item rounded-xl relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/2.png)] h-[70vh] bg-center bg-cover flex items-center justify-center">
+              <div class="hidden lg:block absolute bottom-10 right-10 bg-stone-900 rounded-lg px-5 py-3 w-1/2 text-white">
+                  <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                  <p class="opacity-70 text-base">Get to meet your favourite players and get their autographs. It is a game changer. So, delve into the world of hockey!</p>
+              </div>
+            <div class="absolute bottom-0 left-50 right-50 lg:left-8 space-x-4 flex justify-between transform -translate-y-1/2">
+              <a href="#slide1" class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❮</a> 
+              <a href="#slide3" class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item rounded-xl relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/3.png)] h-[70vh] bg-center bg-cover flex items-center justify-center">
+              <div class="hidden lg:block absolute bottom-10 right-10 bg-stone-900 rounded-lg px-5 py-3 w-1/2 text-white">
+                  <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+                  <p class="opacity-70 text-base">Get to meet your favourite players and get their autographs. It is a game changer. So, delve into the world of hockey!</p>
+              </div>
+            <div class="absolute bottom-0 left-50 right-50 lg:left-8 space-x-4 flex justify-between transform -translate-y-1/2">
+              <a href="#slide2" class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❮</a> 
+              <a href="#slide1" class="btn btn-circle text-white bg-stone-900 border-none hover:text-black">❯</a>
+            </div>
+          </div> 
+        </div>
+        <div class="lg:hidden bg-stone-900 rounded-lg px-5 py-3 w-full text-white">
+          <h1 class="text-xl font-bold mb-2">Meet all the heroes from the field</h1>
+          <p class="opacity-70 text-base">Get to meet your favourite players and get their autographs. It is a game changer. So, delve into the world of hockey!</p>
+        </div>
+        <!-- Hero Carousel ends here -->
+        <div class="border border-1 border-dashed border-slate-300 my-8"></div>        
     </header>
-    <main>
-
+    <main class="container mx-auto my-8 px-8 lg:px-24">
+      
     </main>
     <footer>
 
